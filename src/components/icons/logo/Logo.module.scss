@@ -1,0 +1,11 @@
+@import 'src/assets/styles/vars.module.scss';
+
+.logo {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.logo path {
+  fill: $globalcolors-neutral-100;
+}

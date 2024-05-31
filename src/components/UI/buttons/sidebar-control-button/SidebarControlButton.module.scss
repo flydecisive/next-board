@@ -1,0 +1,21 @@
+@import 'src/assets/styles/vars.module.scss';
+
+.button {
+  width: 28px;
+  height: 28px;
+  background: $globalcolors-neutral-30;
+  position: absolute;
+  top: 50%;
+  right: -14px;
+  transform: translateY(-50%);
+  border-radius: 2px;
+  padding: 4px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

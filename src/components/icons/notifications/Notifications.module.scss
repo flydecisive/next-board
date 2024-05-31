@@ -1,0 +1,11 @@
+@import '/src/assets/styles/vars.module';
+
+.notifications {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+
+  & path {
+    stroke: $globalcolors-neutral-80;
+  }
+}
